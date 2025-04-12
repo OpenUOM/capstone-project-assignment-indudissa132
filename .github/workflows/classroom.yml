@@ -16,7 +16,7 @@ jobs:
     - name: Backend List Teachers
       id: backend-list-teachers
     - uses: actions/setup-node@v3
-       with:
+      with:
         node-version: 20
     - uses: classroom-resources/autograding-command-grader@v1
       with:
