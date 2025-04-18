@@ -18,8 +18,8 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Backend List Teachers
-        setup-command: 
-                       npm install --force
+        setup-command: npm install --force
+                      
                        
                       
                       
