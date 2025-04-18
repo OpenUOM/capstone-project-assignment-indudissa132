@@ -18,7 +18,8 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Backend List Teachers
-        setup-command: npm install --force --legacy-peer-deps
+        setup-command: rm -rf node_modules package-lock.json
+                       npm install --force --legacy-peer-deps
                       
                        
                       
