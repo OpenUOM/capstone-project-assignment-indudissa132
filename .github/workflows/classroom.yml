@@ -18,8 +18,9 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Backend List Teachers
-        setup-command: rm -rf node_modules package-lock.json
+        setup-command: 
                        npm install --force
+                       npm update --force
                       
                        
                       
