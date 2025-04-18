@@ -19,8 +19,8 @@ jobs:
       with:
         test-name: Backend List Teachers
         setup-command: 
-                       npm install --save --legacy-peer-deps --force
-                       npm config set legacy-peer-deps true  --force
+                       npm install --force
+                       npm config set legacy-peer-deps true --force
                       
                       
         command: npm test -- -t --force "GET /listTeachers should show all teachers"
