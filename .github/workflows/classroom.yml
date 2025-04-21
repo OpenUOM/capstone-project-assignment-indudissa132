@@ -19,8 +19,8 @@ jobs:
       with:
         test-name: Backend List Teachers
         setup-command: 
-                       npm install --force
-                       npm install --legacy-peer-deps
+                       npm install --force --legacy-peer-deps
+                      
 
                        
                       
