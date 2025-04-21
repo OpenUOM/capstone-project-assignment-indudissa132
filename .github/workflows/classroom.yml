@@ -20,7 +20,7 @@ jobs:
         test-name: Backend List Teachers
         setup-command: 
                        npm install --force 
-                       npm install -g @angular/cli@latest
+                       npm install @angular/cli@latest
                        
                       
 
