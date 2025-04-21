@@ -19,8 +19,9 @@ jobs:
       with:
         test-name: Backend List Teachers
         setup-command: 
-                       npm install --force --legacy-peer-deps
-                       npm  config set legacy-peer-deps true
+                       npm install --force 
+                       npm install -g @angular/cli@latest
+                       
                       
 
                        
