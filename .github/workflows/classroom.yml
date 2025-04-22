@@ -18,8 +18,19 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Backend List Teachers
-        setup-command: npm install
-        command: npm test -- -t "GET /listTeachers should show all teachers"
+        setup-command: 
+                       npm install --force 
+                      
+                      
+
+                       
+                      
+                       
+                      
+                      
+        command: npm test -- -t --force "GET /listTeachers should show all teachers"
+                
+                 
         timeout: 10
         max-score: 10
     - name: Backend Add Teacher
