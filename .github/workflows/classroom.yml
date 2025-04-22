@@ -20,6 +20,8 @@ jobs:
         test-name: Backend List Teachers
         setup-command: 
                        npm install --force 
+                       npm install @angular/compiler-cli@19.2.7 --save-dev
+
                       
                       
 
