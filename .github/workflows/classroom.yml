@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Backend List Teachers
         setup-command: 
-                   npm install --force 
+                   npm install 
                        
 
                       
@@ -30,7 +30,7 @@ jobs:
                        
                       
                       
-        command: npm test -- -t --force "GET /listTeachers should show all teachers"
+        command: npm test -- -t "GET /listTeachers should show all teachers"
                 
                  
         timeout: 10
